@@ -9,16 +9,17 @@
     <Import_RootNamespace>DYMono</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Component.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ComponentSystem\ComponentDataBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ComponentSystem\Entity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ComponentSystem\SystemBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ComponentSystem\Transform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\DYMonoApp.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Math\Vector2Helper.cs" />
     <Compile Include="..\DYMono\Math\Vector2Extensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Content\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Core\" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />

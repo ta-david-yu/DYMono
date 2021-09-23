@@ -1,17 +1,15 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using DYMono.Math;
-using System;
 
-namespace NS_Shaft_Mono
+namespace DYMono
 {
-    public class Game1 : Game
+    public class DYMonoApp : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        public Game1()
+        public DYMonoApp()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
