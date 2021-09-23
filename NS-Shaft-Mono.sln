@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NS-Shaft-Mono-OpenGL", "NS-Shaft-Mono\NS-Shaft-Mono-OpenGL.csproj", "{ADE7E3A5-912D-4DB6-BF8D-CB6E65D7D74F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DYMono", "DYMono\DYMono.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DYMono\DYMono.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+		DYMono\DYMono.projitems*{ade7e3a5-912d-4db6-bf8d-cb6e65d7d74f}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE7E3A5-912D-4DB6-BF8D-CB6E65D7D74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE7E3A5-912D-4DB6-BF8D-CB6E65D7D74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE7E3A5-912D-4DB6-BF8D-CB6E65D7D74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE7E3A5-912D-4DB6-BF8D-CB6E65D7D74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C53F464-CFC4-42D2-838F-D174ECC5EDEC}
+	EndGlobalSection
+EndGlobal
